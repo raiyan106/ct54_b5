@@ -13,6 +13,8 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/baguetteBox.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
@@ -21,7 +23,7 @@
 
   <!-- Top Menu -->
   <section id="top-menu">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -38,18 +40,18 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About me</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#recent">Recent</a></li>
-        <li><a href="#form-sect">Contact</a></li>
+        <li><a class="hover-color" href="#top-menu">Home</a></li>
+        <li><a class="hover-color" href="#about">About me</a></li>
+        <li><a class="hover-color" href="#services">Services</a></li>
+        <li><a class="hover-color" href="#recent">Recent</a></li>
+        <li><a class="hover-color" href="#form-sect">Contact</a></li>
         
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="top-folio">
+<div class="top-folio wow fadeIn" data-wow-duration="1.9s" data-wow-delay="0.1s">
   <img src="images/raiyan.jpg" class="img-circle" alt="me">
   <h3>Raiyan Khan</h3>
   <p>Hey there, I am a innovative designer and developer of web with years of 
@@ -66,11 +68,13 @@
   <section id="about">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-sm-12">
-          <img class="img-responsive" src="images/raiyan.jpg" alt="Me">
+        <div class="col-md-4 col-sm-12" >
+           
+            <img class="img-responsive" src="images/raiyan.jpg" alt="Me">
+          
         </div>  
 
-        <div class="col-md-8 col-sm-12 about-info">
+        <div class="col-md-8 col-sm-12 about-info wow bounceInUp" data-wow-duration="1.9s" data-wow-delay="0.1s">
           <h2> A Bried Description About me </h2>
           <h3>Creative Worker and Developer</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -98,7 +102,7 @@
 
     <div class="row">
       <div class="col-md-4 col-sm-6">
-        <div class="my-service">
+        <div class="my-service wow flipInY" data-wow-duration="1.6s" data-wow-delay="0.1s">
         
           <i class="fa fa-camera" aria-hidden="true"></i>
           <h3>Photography & Portrait</h3>
@@ -107,7 +111,7 @@
       </div>
 
       <div class="col-md-4 col-sm-6">
-        <div class="my-service">
+        <div class="my-service wow zoomInDown" data-wow-duration="1.6s" data-wow-delay="0.1s">
         
           <i class="fa fa-wordpress" aria-hidden="true"></i>
           <h3>Wordpress Developer</h3>
@@ -116,7 +120,7 @@
       </div>
 
       <div class="col-md-4 col-sm-6">
-        <div class="my-service">
+        <div class="my-service wow rollIn" data-wow-duration="1.6s" data-wow-delay="0.1s">
         
           <i class="fa fa-tags" aria-hidden="true"></i>
           <h3>Digital Marketeer</h3>
@@ -125,7 +129,7 @@
       </div>
 
       <div class="col-md-4 col-sm-6">
-        <div class="my-service">
+        <div class="my-service wow rollIn" data-wow-duration="1.6s" data-wow-delay="0.1s">
         
           <i class="fa fa-laptop" aria-hidden="true"></i>
           <h3>UX/UI Designer</h3>
@@ -134,7 +138,7 @@
       </div>
 
       <div class="col-md-4 col-sm-6">
-        <div class="my-service">
+        <div class="my-service wow zoomInDown" data-wow-duration="1.6s" data-wow-delay="0.1s">
         
           <i class="fa fa-volume-up" aria-hidden="true"></i>
           <h3>Voice Recognition</h3>
@@ -143,7 +147,7 @@
       </div>
 
       <div class="col-md-4 col-sm-6">
-        <div class="my-service">
+        <div class="my-service wow flipInY" data-wow-duration="1.6s" data-wow-delay="0.1s">
         
           <i class="fa fa-youtube" aria-hidden="true"></i>
           <h3>Youtube Promoter</h3>
@@ -271,40 +275,41 @@
       </div>
     </div>
 
-    <div class="col-md-4 col-sm-6">
+    <div class="baguette">
+    <div class="col-md-4 col-sm-6 wow rollIn" data-wow-duration="1.6s" data-wow-delay="0.1s">
       <div class="recent-img">
-       <a href="#"><img src="images/dl1.png" class="img-responsive"></a>
+       <a href="images/dl1.png"><img src="images/dl1.png"  class="img-responsive"></a>
      </div>
     </div>
-    <div class="col-md-4 col-sm-6">
+    <div class="col-md-4 col-sm-6 wow zoomInDown" data-wow-duration="1.6s" data-wow-delay="0.1s">
         <div class="recent-img">
-          <a href="#"><img src="images/dl2.png" class="img-responsive"></a>
+          <a href="images/dl2.png"><img src="images/dl2.png"  class="img-responsive"></a>
       </div>
     </div>
 
-    <div class="col-md-4 col-sm-6">
+    <div class="col-md-4 col-sm-6 wow zoomInRight" data-wow-duration="1.6s" data-wow-delay="0.1s">
           <div class="recent-img">
-            <a href="#"><img src="images/dl3.png" class="img-responsive"></a>
+            <a href="images/dl3.png"><img src="images/dl3.png"  class="img-responsive"></a>
           </div>
     </div>
 
-    <div class="col-md-4 col-sm-6">
+    <div class="col-md-4 col-sm-6 wow zoomInUp" data-wow-duration="1.6s" data-wow-delay="0.1s">
           <div class="recent-img">
-            <a href="#"><img src="images/dl4.png" class="img-responsive"></a>
+            <a href="images/dl4.png"><img src="images/dl4.png"  class="img-responsive"></a>
           </div>
     </div>
 
-    <div class="col-md-4 col-sm-6">
+    <div class="col-md-4 col-sm-6 wow flipInX" data-wow-duration="1.6s" data-wow-delay="0.1s">
            <div class="recent-img">
-             <a href="#"> <img src="images/dl5.png" class="img-responsive"></a>
+             <a href="images/dl5.png"> <img src="images/dl5.png"  class="img-responsive"></a>
           </div>
     </div>
-    <div class="col-md-4 col-sm-6">
+    <div class="col-md-4 col-sm-6 wow flipInY" data-wow-duration="1.6s" data-wow-delay="0.1s">
         <div class="recent-img">
-            <a href="#"> <img src="images/dl6.png" class="img-responsive"></a>
+            <a href="images/dl6.png"> <img src="images/dl6.png"  class="img-responsive"></a>
         </div>
      </div>
-
+    </div>
      </div>
   </div>
 
@@ -342,7 +347,7 @@
 <!-- FORM SECTION -->
 <section id="form-sect">
   <div class="container">
-   <h1>get in touch</h1>
+   <h1 class="wow rollIn" data-wow-duration="1.6s" data-wow-delay="0.1s">get in touch</h1>
     <div class="row">
       <div class="form-header">
        <div class="col-sm-4">
@@ -438,5 +443,72 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/baguetteBox.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/mouse.parallax.js"></script>
+    <script src="js/nicescroll.min.js"></script>
+
+    <script>
+    
+   $(function() {
+    $('.navbar-nav li a').bind('click', function(event) {
+        var $anchor=$(this);
+        $('html, body').stop().animate( {
+            scrollTop: $($anchor.attr('href')).offset().top
+        }
+        , 1500, 'easeInOutExpo');
+        event.preventDefault();
+    }
+    );
+}
+
+);
+
+   function collapseNavbar() {
+    if($(".navbar").offset().top>100) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse hover-color");
+    }
+    else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse hover-color");
+
+    }
+}
+$(window).scroll(collapseNavbar);
+$(document).ready(collapseNavbar);
+
+baguetteBox.run('.baguette',{
+  animation:'fadeIn',
+  noScrollbars: true,
+  
+});
+
+ wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       20,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+
+  wow.init();
+
+
+
+    $('#top-menu').parallax("90%",1.5); 
+    $('#total').parallax("50%",.5); 
+    $('#client').parallax("50%",.5); 
+       $("html").niceScroll();
+
+
+
+
+
+
+    </script>
   </body>
 </html>
