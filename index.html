@@ -454,13 +454,7 @@
     <script src="js/fakeLoader.min.js"></script>
 
     <script>
-     $(".fakeloader").fakeLoader({
-                    timeToHide:1800,
-                    bgColor:"#111",
-                    spinner:"spinner6", 
-                     
-                });
-     
+    
             
     
    $(function() {
@@ -473,9 +467,7 @@
         event.preventDefault();
     }
     );
-}
 
-);
 
    function collapseNavbar() {
     if($(".navbar").offset().top>100) {
@@ -516,9 +508,17 @@ baguetteBox.run('.baguette',{
 
         
 
+ $(".fakeloader").fakeLoader({
+                    timeToHide:1800,
+                    bgColor:"#111",
+                    spinner:"spinner6", 
+                     
+                });
+     
 
+}
 
-
+);
 
     </script>
   </body>
