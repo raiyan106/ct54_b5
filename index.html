@@ -15,10 +15,11 @@
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/baguetteBox.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/fakeLoader.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-
+  <div class="fakeloader"></div>
 
 
   <!-- Top Menu -->
@@ -450,8 +451,17 @@
     <script src="js/parallax.min.js"></script>
     <script src="js/mouse.parallax.js"></script>
     <script src="js/nicescroll.min.js"></script>
+    <script src="js/fakeLoader.min.js"></script>
 
     <script>
+     $(".fakeloader").fakeLoader({
+                    timeToHide:1800,
+                    bgColor:"#111",
+                    spinner:"spinner6", 
+                     
+                });
+     
+            
     
    $(function() {
     $('.navbar-nav li a').bind('click', function(event) {
@@ -504,6 +514,7 @@ baguetteBox.run('.baguette',{
     $('#client').parallax("50%",.5); 
        $("html").niceScroll();
 
+        
 
 
 
